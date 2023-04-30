@@ -37,7 +37,7 @@ plt.savefig('figures/exploratory_data_analysis/product_mentions.png')
 top_products = product_df.head(10)
 print("Most frequently mentioned products:")
 print(top_products)
-top_products.to_csv('data/top_products.csv', index=False) # saving the top products to a csv file
+top_products.to_csv('data/exploratory_data_analysis/top_products.csv', index=False) # saving the top products to a csv file
 
 # visualize trends in the tweets data
 plt.figure(figsize=(12, 6))
